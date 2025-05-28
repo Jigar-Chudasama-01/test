@@ -42,7 +42,7 @@
       margin-top: 0.5rem;
     }
 
-    .intro {
+    .intro, .skills {
       max-width: 800px;
       margin: 2rem auto;
       padding: 2rem;
@@ -52,7 +52,7 @@
       animation: fadeIn 1.5s ease-in;
     }
 
-    .intro p {
+    .intro p, .skills p {
       font-size: 1.1rem;
       margin-bottom: 1rem;
     }
@@ -82,6 +82,16 @@
       background: #0ea5e9;
     }
 
+    .skills h3 {
+      margin-bottom: 1rem;
+      color: var(--accent-color);
+    }
+
+    ul {
+      list-style-type: disc;
+      margin-left: 1.5rem;
+    }
+
     @keyframes fadeIn {
       from {
         opacity: 0;
@@ -98,7 +108,7 @@
         font-size: 2rem;
       }
 
-      .intro {
+      .intro, .skills {
         padding: 1.5rem;
       }
     }
@@ -120,6 +130,18 @@
       <a href="https://github.com/Jigar-Chudasama-01" target="_blank">GitHub</a>
       <a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
     </div>
+  </section>
+
+  <section class="skills">
+    <h3>Skills</h3>
+    <ul>
+      <li><strong>Frontend:</strong> HTML, CSS, BootStrap</li>
+      <li><strong>Programming Languages:</strong> C, C++, Java, JavaScript, Python</li>
+      <li><strong>DevOps:</strong> Git, GitHub, Ansible, Docker, Podman, YAML</li>
+      <li><strong>System Administration:</strong> RHEL, Ubuntu</li>
+      <li><strong>Cloud Computing:</strong> AWS</li>
+      <li><strong>Algorithmic Problem Solving:</strong> Solved 500+ problems on platforms like LeetCode, CodeChef, Coding Ninjas</li>
+    </ul>
   </section>
 </body>
 </html>
